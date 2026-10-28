@@ -1,0 +1,22 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+*.log
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Contracts — real PDFs should not be committed (add your own test fixtures)
+contracts/*.pdf
+
+# Modal
+.modal/
