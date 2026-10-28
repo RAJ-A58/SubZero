@@ -26,7 +26,7 @@ SUBSCRIPTIONS = {
         "is_headless_bot":       False,
         "has_webhook":           False,
         "user_type":             "human",
-        "auto_renewal_date":     (date.today() + timedelta(days=45)).isoformat(),
+        "auto_renewal_date":     (date.today() + timedelta(days=65)).isoformat(),
         "notice_window_days":    30,
         "early_termination_fee": 0.0,
         "contract_term_months":  12,
@@ -61,7 +61,7 @@ SUBSCRIPTIONS = {
         "is_headless_bot":       False,
         "has_webhook":           False,
         "user_type":             "human",
-        "auto_renewal_date":     (date.today() + timedelta(days=25)).isoformat(),
+        "auto_renewal_date":     (date.today() + timedelta(days=65)).isoformat(),
         "notice_window_days":    30,
         "early_termination_fee": 1800.00,    # ← TRAP B: ETF penalty
         "contract_term_months":  12,
